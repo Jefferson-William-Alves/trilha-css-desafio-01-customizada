@@ -1,0 +1,165 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+head {
+    display: none;  
+}
+body{
+    background-color: black;
+}
+.banner{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
+    background-image: url(/assets/images/bannerFloresta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #3eeb13;
+    gap: 16px;
+}
+.banner-content{
+    color: #3eeb13;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.logo {
+    margin: auto;
+    width: 268px;
+    height: 268px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background: rgba(0, 0, 0, 0.20);
+}
+div{
+    display: block;
+}
+img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+h1{
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(180deg, #bfe9b7 0%, #3eeb13 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5px;
+}
+p{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+button{
+    border: 2px solid #bfe9b7;
+    width: 300px;
+    padding: 20px 10px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    color: #bfe9b7;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.36px;
+    background-color: transparent;
+}
+main, #course-content, .modules-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h2{
+    color: #bfe9b7;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 6.08px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.module{
+    display: flex;
+    width: 535px;
+    padding: 16px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 57px;
+    border: 1px solid #bfe9b7;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+}
+span{
+    color: #bfe9b7;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+section{
+    margin: 80px;
+}
+#transform-world{
+    width: 1439px;
+    height: 960px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-image: url(../images/orqs.png);
+    background-attachment: fixed;
+    border-top: 1px solid #3eeb13;
+    border-bottom: 1px solid #3eeb13;
+    padding: 200px;
+}
+#transform-world p{
+    text-shadow: 3px 2px 0px #3eeb13;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    max-width: 500px;
+}
+#professional-challenges{
+    text-align: center;
+    width: 800px;
+}
+footer{
+    text-align: center;
+    padding: 60px 0px;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(12, 151, 35, 0.2));
+    border-top: 1px solid #3eeb13;
+}
+footer a{
+    color: #bfe9b7;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 21px;
+}
+footer .RA-logo{
+    width: 600px;
+}
