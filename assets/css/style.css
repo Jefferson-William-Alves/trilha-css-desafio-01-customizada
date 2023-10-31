@@ -11,7 +11,7 @@ body{
 }
 .banner{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
-    background-image: url(/assets/images/bannerFloresta.png);
+    background-image: url(../images/bannerFloresta.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
@@ -126,11 +126,11 @@ section{
     margin: 80px;
 }
 #transform-world{
-    width: 1439px;
+    width: 100%;
     height: 960px;
     flex-shrink: 0;
     background-size: cover;
-    background-image: url(../images/orqs.png);
+    background-image: url(../images/orqRA.jpg);
     background-attachment: fixed;
     border-top: 1px solid #3eeb13;
     border-bottom: 1px solid #3eeb13;
